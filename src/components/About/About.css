@@ -1,0 +1,94 @@
+.about-head{
+    height: calc(100vh-4rem);
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.title{
+    display: flex;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: 500;
+    color: yellow;
+}
+
+.knowpara{
+    display: flex;
+    justify-content: center;
+    font-size: 1.2rem;
+    font-weight: 400;
+
+}
+
+.edu-head{
+    display: flex;
+    justify-content: center;
+    font-size: 2.5rem;
+    font-weight: 400;
+    color: yellow;
+
+}
+
+.education{
+    display: flex;
+    flex-direction: row;
+    width: 100vw;
+    max-width: 75rem;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.edu-title{
+    font-size: 2.5rem;
+    color: yellow;
+    font-weight: 300;
+}
+
+.columns {
+    float: left;
+    width: 33.3%;
+    padding: 8px;
+  }
+  
+ 
+.price {
+    list-style-type: none;
+    border: 1px solid #eee;
+    margin: 0;
+    padding: 0;
+    -webkit-transition: 0.3s;
+    transition: 0.3s;
+  }
+  
+  /* Add shadows on hover */
+  .price:hover {
+    box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+  }
+  
+
+  .price .header {
+    background-color: #111;
+    color: white;
+    font-size: 25px;
+  }
+  
+  
+  .price li {
+    border-bottom: 1px solid #eee;
+    padding: 20px;
+    text-align: center;
+  }
+  
+ 
+  .price .grey {
+    
+    font-size: 20px;
+  }
+  
+  @media only screen and (max-width: 600px) {
+    .columns {
+      width: 100%;
+    }
+  }
